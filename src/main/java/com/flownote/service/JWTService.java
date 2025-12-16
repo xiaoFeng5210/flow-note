@@ -18,6 +18,11 @@ public class JWTService {
 //        System.out.println(token);
     }
 
+    /**
+     * 生成token
+     * @param userId userId
+     * @param username username
+     */
     public String generateSecrets(String userId, String username) {
         try {
             Algorithm algorithm = Algorithm.HMAC256(secret);
@@ -32,6 +37,11 @@ public class JWTService {
         }
     }
 
+
+    /**
+     * jwt验证
+     * @param token token
+     */
     public Boolean validateToken(String token) {
         try {
             Algorithm algorithm = Algorithm.HMAC256(secret);
