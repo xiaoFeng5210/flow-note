@@ -13,9 +13,6 @@ import java.util.Date;
 public class pingController {
     @GetMapping()
     public String ping() {
-        Logger logger = LoggerFactory.getLogger(pingController.class);
-        logger.info("ping request: {}", new Date());
-        logger.warn("ping request warn: {}", new Date());
-        return "pong";
+        // Logger logger = LoggerFactory.getLogger(pingController.class);
     }
 }
