@@ -1,6 +1,7 @@
 package com.flownote.service;
 
 
+import com.flownote.dto.user.UserCreateRequest;
 import com.flownote.entity.User;
 import com.flownote.repository.UserMapper;
 import org.springframework.stereotype.Service;
@@ -18,4 +19,8 @@ public class UserService {
     public List<User> getAllUsers() {
         return userMapper.findAll();
     }
+
+//    public create(UserCreateRequest user) {
+//
+//    }
 }
