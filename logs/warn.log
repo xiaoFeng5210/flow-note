@@ -1,1 +1,1 @@
-2026-01-06 16:21:37.961 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-01-09 16:20:47.016 WARN  [http-nio-127.0.0.1-8121-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Invalid value for EpochDay (valid values -365243219162 - 365241780471): 737622141000]

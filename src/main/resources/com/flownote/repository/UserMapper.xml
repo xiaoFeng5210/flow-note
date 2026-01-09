@@ -9,6 +9,11 @@
         FROM users
     </select>
 
+    <insert id="create" parameterType="com.flownote.dto.user.UserCreateRequest">
+        INSERT INTO users (username, password, email, phone, address, birthday)
+        VALUES (#{username}, #{password}, #{email}, #{phone}, #{address}, #{birthday})
+    </insert>
+
     <!--    <select id="findById" parameterType="int">-->
     <!--        SELECT * FROM users WHERE ID = #{id}-->
     <!--    </select>-->

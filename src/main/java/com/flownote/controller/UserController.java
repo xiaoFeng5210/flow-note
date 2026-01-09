@@ -19,10 +19,10 @@ public class UserController {
         this.userService = userService;
     }
 
-//    @PostMapping("/register")
-//    public Response<Integer> create(@Valid @RequestBody UserCreateRequest user) {
-//
-//    }
+    @PostMapping("/register")
+    public Integer create(@Valid @RequestBody UserCreateRequest user) {
+        return userService.create(user);
+    }
 
     /**
      * 获取所有用户

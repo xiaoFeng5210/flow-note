@@ -6,6 +6,9 @@ import com.flownote.entity.User;
 import com.flownote.repository.UserMapper;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -20,7 +23,11 @@ public class UserService {
         return userMapper.findAll();
     }
 
-//    public create(UserCreateRequest user) {
-//
-//    }
+    public static void main(String[] args) {
+
+    }
+
+    public Integer create(UserCreateRequest user) {
+        return userMapper.create(user);
+    }
 }

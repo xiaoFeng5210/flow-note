@@ -1,37 +1,93 @@
-2026-01-06 16:21:36.614 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2026-01-06 16:21:36.637 INFO  [main] com.flownote.Application - Starting Application using Java 21.0.8 with PID 97799 (/Users/xiaofeng/Documents/github/flow-note/target/classes started by xiaofeng in /Users/xiaofeng/Documents/github/flow-note)
-2026-01-06 16:21:36.637 INFO  [main] com.flownote.Application - The following 1 profile is active: "dev"
-2026-01-06 16:21:37.013 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2026-01-06 16:21:37.014 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2026-01-06 16:21:37.028 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2026-01-06 16:21:37.313 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8021 (http)
-2026-01-06 16:21:37.323 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8021"]
-2026-01-06 16:21:37.325 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2026-01-06 16:21:37.325 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
-2026-01-06 16:21:37.353 INFO  [main] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
-2026-01-06 16:21:37.354 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 697 ms
-2026-01-06 16:21:37.953 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8021"]
-2026-01-06 16:21:37.973 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-01-06 17:07:50.100 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2026-01-06 17:07:50.125 INFO  [main] com.flownote.Application - Starting Application using Java 21.0.8 with PID 67683 (/Users/xiaofeng/Documents/github/flow-note/target/classes started by xiaofeng in /Users/xiaofeng/Documents/github/flow-note)
-2026-01-06 17:07:50.126 INFO  [main] com.flownote.Application - The following 1 profile is active: "dev"
-2026-01-06 17:07:50.530 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2026-01-06 17:07:50.531 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2026-01-06 17:07:50.544 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2026-01-06 17:07:50.846 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8121 (http)
-2026-01-06 17:07:50.857 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8121"]
-2026-01-06 17:07:50.859 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2026-01-06 17:07:50.859 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
-2026-01-06 17:07:50.886 INFO  [main] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
-2026-01-06 17:07:50.887 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 728 ms
-2026-01-06 17:07:51.479 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8121"]
-2026-01-06 17:07:51.489 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8121 (http) with context path '/api'
-2026-01-06 17:07:51.495 INFO  [main] com.flownote.Application - Started Application in 1.692 seconds (process running for 1.907)
-2026-01-06 17:08:36.170 INFO  [http-nio-127.0.0.1-8121-exec-1] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-06 17:08:36.170 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2026-01-06 17:08:36.173 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-2026-01-06 17:08:36.205 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2026-01-06 17:08:36.340 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12fb0596
-2026-01-06 17:08:36.341 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 10:27:33.897 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-09 10:27:33.941 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-09 10:27:35.627 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-01-09 10:27:35.653 INFO  [main] com.flownote.Application - Starting Application using Java 21.0.8 with PID 51719 (/Users/xiaofeng/Documents/github/flow-note/target/classes started by xiaofeng in /Users/xiaofeng/Documents/github/flow-note)
+2026-01-09 10:27:35.654 INFO  [main] com.flownote.Application - The following 1 profile is active: "dev"
+2026-01-09 10:27:36.056 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-09 10:27:36.057 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-01-09 10:27:36.071 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2026-01-09 10:27:36.361 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8121 (http)
+2026-01-09 10:27:36.374 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8121"]
+2026-01-09 10:27:36.376 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-09 10:27:36.376 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-09 10:27:36.402 INFO  [main] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2026-01-09 10:27:36.403 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 725 ms
+2026-01-09 10:27:37.000 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8121"]
+2026-01-09 10:27:37.010 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8121 (http) with context path '/api'
+2026-01-09 10:27:37.017 INFO  [main] com.flownote.Application - Started Application in 1.748 seconds (process running for 2.018)
+2026-01-09 10:28:03.929 INFO  [http-nio-127.0.0.1-8121-exec-1] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-09 10:28:03.930 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-09 10:28:03.931 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-01-09 10:28:04.017 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 10:28:04.138 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e00505f
+2026-01-09 10:28:04.139 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 10:53:27.025 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-09 10:53:27.029 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-09 10:53:27.048 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 10:53:27.049 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-09 15:38:44.120 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-01-09 15:38:44.144 INFO  [main] com.flownote.Application - Starting Application using Java 21.0.8 with PID 9259 (/Users/xiaofeng/Documents/github/flow-note/target/classes started by xiaofeng in /Users/xiaofeng/Documents/github/flow-note)
+2026-01-09 15:38:44.145 INFO  [main] com.flownote.Application - The following 1 profile is active: "dev"
+2026-01-09 15:38:44.530 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-09 15:38:44.531 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-01-09 15:38:44.544 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2026-01-09 15:38:44.836 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8121 (http)
+2026-01-09 15:38:44.844 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8121"]
+2026-01-09 15:38:44.845 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-09 15:38:44.846 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-09 15:38:44.873 INFO  [main] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2026-01-09 15:38:44.874 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 704 ms
+2026-01-09 15:38:45.520 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8121"]
+2026-01-09 15:38:45.530 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8121 (http) with context path '/api'
+2026-01-09 15:38:45.537 INFO  [main] com.flownote.Application - Started Application in 1.741 seconds (process running for 1.951)
+2026-01-09 16:20:46.934 INFO  [http-nio-127.0.0.1-8121-exec-1] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-09 16:20:46.936 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-09 16:20:46.938 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-01-09 16:21:07.150 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-09 16:21:07.152 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-09 16:21:08.631 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-01-09 16:21:08.654 INFO  [main] com.flownote.Application - Starting Application using Java 21.0.8 with PID 16079 (/Users/xiaofeng/Documents/github/flow-note/target/classes started by xiaofeng in /Users/xiaofeng/Documents/github/flow-note)
+2026-01-09 16:21:08.654 INFO  [main] com.flownote.Application - The following 1 profile is active: "dev"
+2026-01-09 16:21:09.062 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-09 16:21:09.064 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-01-09 16:21:09.078 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2026-01-09 16:21:09.383 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8121 (http)
+2026-01-09 16:21:09.391 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8121"]
+2026-01-09 16:21:09.393 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-09 16:21:09.393 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-09 16:21:09.419 INFO  [main] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2026-01-09 16:21:09.419 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 743 ms
+2026-01-09 16:21:10.024 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8121"]
+2026-01-09 16:21:10.040 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8121 (http) with context path '/api'
+2026-01-09 16:21:10.048 INFO  [main] com.flownote.Application - Started Application in 1.746 seconds (process running for 1.997)
+2026-01-09 17:14:53.632 INFO  [http-nio-127.0.0.1-8121-exec-1] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-09 17:14:53.635 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-09 17:14:53.638 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-01-09 17:14:53.760 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 17:14:53.929 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c4bb0a6
+2026-01-09 17:14:53.930 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 17:16:36.443 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-09 17:16:36.447 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-09 17:16:36.474 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 17:16:36.476 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-09 17:16:37.999 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-01-09 17:16:38.033 INFO  [main] com.flownote.Application - Starting Application using Java 21.0.8 with PID 55596 (/Users/xiaofeng/Documents/github/flow-note/target/classes started by xiaofeng in /Users/xiaofeng/Documents/github/flow-note)
+2026-01-09 17:16:38.034 INFO  [main] com.flownote.Application - The following 1 profile is active: "dev"
+2026-01-09 17:16:38.421 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-09 17:16:38.422 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-01-09 17:16:38.434 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2026-01-09 17:16:38.724 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8121 (http)
+2026-01-09 17:16:38.736 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8121"]
+2026-01-09 17:16:38.738 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-09 17:16:38.738 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-09 17:16:38.764 INFO  [main] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2026-01-09 17:16:38.764 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 697 ms
+2026-01-09 17:16:39.358 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8121"]
+2026-01-09 17:16:39.368 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8121 (http) with context path '/api'
+2026-01-09 17:16:39.375 INFO  [main] com.flownote.Application - Started Application in 1.699 seconds (process running for 1.971)
+2026-01-09 17:17:02.717 INFO  [http-nio-127.0.0.1-8121-exec-1] o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-09 17:17:02.718 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-09 17:17:02.719 INFO  [http-nio-127.0.0.1-8121-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-09 17:17:02.817 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 17:17:02.943 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3dd7522e
+2026-01-09 17:17:02.944 INFO  [http-nio-127.0.0.1-8121-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
