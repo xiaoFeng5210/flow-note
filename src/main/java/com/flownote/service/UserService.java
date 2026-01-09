@@ -23,10 +23,6 @@ public class UserService {
         return userMapper.findAll();
     }
 
-    public static void main(String[] args) {
-
-    }
-
     public Integer create(UserCreateRequest user) {
         return userMapper.create(user);
     }
