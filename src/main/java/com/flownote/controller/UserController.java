@@ -24,6 +24,11 @@ public class UserController {
         return userService.create(user);
     }
 
+    @GetMapping("/find-by-id")
+    public User find(@RequestParam() Integer id) {
+        return userService.findById(id);
+    }
+
     /**
      * 获取所有用户
      *

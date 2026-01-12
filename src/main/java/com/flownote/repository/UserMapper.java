@@ -12,4 +12,6 @@ public interface UserMapper {
     List<User> findAll();
 
     Integer create(UserCreateRequest user);
+
+    User findById(Integer id);
 }

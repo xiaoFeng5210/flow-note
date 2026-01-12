@@ -26,4 +26,8 @@ public class UserService {
     public Integer create(UserCreateRequest user) {
         return userMapper.create(user);
     }
+
+    public User findById(Integer id) {
+        return userMapper.findById(id);
+    }
 }
